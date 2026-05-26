@@ -379,9 +379,11 @@ nav {
 /* EDIT: When you have a real photo, use this instead of photo-placeholder:
 .about-photo img {
   width: 100%;
+  max-width: 280px;
   border-radius: 12px;
   object-fit: cover;
   aspect-ratio: 3/4;
+  display: block;
 }
 */
 
