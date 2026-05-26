@@ -355,12 +355,14 @@ nav {
 /* ── ABOUT ────────────────────────────────────────────────── */
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 260px 1fr;
   gap: 60px;
   align-items: start;
 }
 
-.about-photo { }
+.about-photo {
+  width: 260px;
+}
 
 .photo-placeholder {
   background: var(--blush);
