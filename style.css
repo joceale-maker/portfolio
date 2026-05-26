@@ -362,6 +362,17 @@ nav {
 
 .about-photo {
   width: 260px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 12px;
+  display: block;
 }
 
 .photo-placeholder {
